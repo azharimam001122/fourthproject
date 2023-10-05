@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="grandparent">
+      <div class="container">
+        <div class="parent">
+          <div class="left">
+            <h2>Shapely Demo</h2>
+          </div>
+          <div class="right">
+            <ul class="list">
+              <li>HOME</li>
+              <li>BLOG</li>
+              <li>PORTFOLIO</li>
+              <li>ABOUTTHETEST</li>
+              <li>LEVEL1</li>
+              <li>SHOP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background-color">
+      <div class="container">
+        <h4 class="blog">Blog</h4>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="father">
+        <div class="left-section">
+          <div class="blog-image-1">
+            <img src="./images/blog-photo-1.jpg" alt="" />
+            <button class="blog-btn">NEWS</button>
+          </div>
+          <div class="left-blog">
+            <div>
+              <h1 class="blog-heading">Template: Sticky</h1>
+              <p class="blog-paragraph">
+                January 7, 2016October 21, 2020 | by Aigars
+              </p>
+              <p>This is a sticky post.</p>
+            </div>
+            <div>
+              <h4 class="blog-heading-2">There are a few things to verify:</h4>
+              <ul>
+                <li class="blog-paragraph-2">
+                  The sticky post should be distinctly recognizable in some way
+                  in comparison to normal posts. You can style. the sticky class
+                  if you are using the post_class() function to generate your
+                  post classes, which is a best practice.
+                </li>
+                <li class="blog-paragraph-2">
+                  They should show at the very top of the blog index page, even
+                  though they could be several posts back chronologically.
+                </li>
+                <li class="blog-paragraph-2">
+                  They should still show up again in their chronologically
+                  correct postion in time, but without the sticky indicator.
+                </li>
+                <li class="blog-paragraph-2">
+                  If you have a plugin or widget that lists popular posts or
+                  comments, make sure that this sticky post is not always at the
+                  top of those lists unless it really is popular.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <div>
+            <button class="right-btn">Type Here</button>
+            <h4 class="right-heading">Top Posts</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <ul class="parentUl">
+        <li>Home
+          <ul class="childUl">
+            <li>Home1
+
+              <ul class="grandChild">
+                <li>Home3</li>
+                <li>Home4</li>
+              </ul>
+            </li>
+            <li>Home2 
+              <ul class="grandChild">
+                <li>Home3</li>
+                <li>Home4</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul class="parent-1">
+        <li>Home
+          <ul class="child-1">
+            <li>Home1
+              <ul class="grandChild-1">
+                <li>Home3</li>
+                <li>Home4</li>
+              </ul>
+            </li>
+            <li>Home2 
+              <ul class="grandChild-1">
+                <li>Home5</li>
+                <li>Home6</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div> 
+  </body>
+</html>
